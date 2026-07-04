@@ -1,0 +1,9 @@
+# Executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# macOS files (optional)
+.DS_Store
