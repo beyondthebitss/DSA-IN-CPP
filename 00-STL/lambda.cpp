@@ -49,3 +49,13 @@ int main() {
 
     return 0;
 }
+// Lambda: Anonymous (unnamed) function.
+// Syntax: [capture](parameters) -> return_type { };
+// Used for short, one-time functions.
+// Commonly used with STL algorithms (sort, for_each, count_if, etc.).
+// Capture:
+// []      -> No variables
+// [=]     -> Capture all by value
+// [&]     -> Capture all by reference
+// [x]     -> Capture x by value
+// [&x]    -> Capture x by reference
